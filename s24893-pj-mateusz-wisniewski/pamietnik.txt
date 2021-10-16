@@ -2,3 +2,4 @@ Na dzisiejszych zajęciach nauczyłem się:
 
 Korzystania z narzędzia GIT
 Tworzenia maszyn wirtualnych
+nauczyłem się korzystać z terminalu cmder
