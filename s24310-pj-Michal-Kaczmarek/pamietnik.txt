@@ -1,0 +1,4 @@
+09.10.2021
+Na dzisiejszych zajeciach nauczylem sie:
+-ustawiac maszyne wirtualna w programie virtualbox
+-nazw folderow w linuxie oraz co zawieraja
