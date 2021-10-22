@@ -1,0 +1,1 @@
+9.10.2021 Na dzisiejszych zajeciach nauczylem sie: -konfigurowac program virtualbox -foldery w linux i ich zastosowanie
