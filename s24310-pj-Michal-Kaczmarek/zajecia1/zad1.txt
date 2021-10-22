@@ -1,0 +1,22 @@
+w aktualnym katalogu znajdują się katalogi użytkownika
+znajduję się w katalogu domowym użytkownika
+przechodzę do katalogu pulpit za pomocą "cd Desktop/"
+ścieżka to: /home/ubuntu/Desktop
+po wyświetleniu zawartości widać pliki które znajdują się na pulpicie
+w trybie graficznym i z poziomu terminala widać te same pliki
+wyświetlić zawartość katalogu domowego można za pomocą "ls /home/ubuntu"
+do katalogu obray można przejść za pomocą "cd .." a następnie "cd Pictures/"
+ścieżka to /home/ubuntu/Pictures
+za pomocą ścieżki ////// przechodzimy do katalogu "/", czyli głownego katalogu linuxa
+przchodzę do swojego katalogu za pomocą ścieżki bezwzględnej "home/ubuntu"
+pow wpisaniu "cd /root" spotykamy się z odmową dostępu, ponieważ aby wejść w ten katalog musimy być zalogowani jako root
+gdy wciśniemy kombinację klawiszy Ctrl+Alt+F1 przechodzimy do trybu tekstowego linuxa
+
+
+tworzę strukturę katalogów za pomocą poleceń cd i mkdir
+w katalogu klamka tworzę pliki za pomocą polecenia touch
+wiele folderów na raz w strukturze można stworzyć za pomocą mkdir z parametrem -p
+tworzę plik dane.txt za pomocą polecenia touch
+z katalogu klamka usuwam wszystkie pliki z rozszerzeniem txt za pomocą polecenia rm*.txt
+katalog2 usuwam za pomocą polecenia rmdir
+katalog klamka usuwam razem z zawartością za pomocą polecenia "rm -rf klamka"
