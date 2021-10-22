@@ -1,0 +1,20 @@
+# ZAJĘCIA 1 - UKOS
+# DATA: 09.10.2021
+# PROWADZĄCY: TOMASZ IDZIKOWSKI
+# STUDENTKA: MARTA WIŚNIOWSKA
+# ZAKRES MATERIAŁU:
+# a) omówienie narzędzia VirtualBox oraz zagadnień związanych z maszyną wirtualną
+# b) podstawy systemu operacyjnego linux:
+#   - budowa systemu,
+#   - podstawowe komendy,
+#   - opis nazw i przeznaczenie katalogów (etc => edit to configure) 
+#   - opis narzędzia vim,
+#   - omówienie snapshota (migawki),
+#   - logowanie na serwer uczelni "szuflandia".
+# c) wstęp do narzędzia GitHub
+# d) zadania do domu:
+#   - instalacja narzędzia VirtualBox,
+#   - instalacja systemu operacyjnego Ubuntu,
+#   - utworzenie konta na GitHub,
+#   - utworzenie/dodanie repozytorium/fork,
+#   - rozpoczęcie prac z "Pamiętnikiem"
