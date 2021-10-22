@@ -1,0 +1,13 @@
+Zadanie 1.1
+-Po wyświetleniu zawartości aktualnego folderu znajduję się w terminalowej adaptacji home folderu
+-Po przejściu do katalogu Pulpit/Desktop widać pliki tekstowe znajdujące się na pulpicie, taką samą zawartość widać w interfejsie graficznym
+-Używając ls /home/ubuntu wyświetlił się katalog domowy
+-Uzywając cd Pictures przeniosło do katalogu obrazy
+-Za pomocą cd /home/ubuntu przechodzę do katalogu głównego
+-Wpisanie komendy cd /root wyświetla komunikat o braku uprawnień do folderu
+-Skrót ctrl+alt+f1 wyświetla ekran logowania
+Zadanie 1.2
+-Komenda touch zajęcia2.txt zajęcia2.log inny.txt tworzy pliki tekstowe
+-Komenda mkdir to/jest/dluga/nazwa tworzy katalogi
+-rmkdir katalog2 usuwa katalog
+-rm -rf klamka usuwa katalog klamka wraz z jego zawartością
