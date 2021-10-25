@@ -1,0 +1,7 @@
+Aby wyświetlić stronę http://szuflandia.pjwstk.edu.pl/~s25933/strona.html trzeba było dać prawo wejścia (x) do kat. public_html
+oraz prawo odczytu (r) pliku strona.html
+
+Ja bym powiedział, że na bitach UMASK i na prawach nowego pliku wykonuje się operacje bitowe a nie logiczne.
+Ich skutek jest taki, że to co jest ustawione w UMASK jest czyszczone w prawach nowego pliku.
+Czyli w C++ operacja jes taka:
+nowe_prawa = (~umask) & domysne_pawa_nowego_pliku;

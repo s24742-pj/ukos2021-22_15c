@@ -1,0 +1,2 @@
+1. cd zadziała jeśli mamy prawa rx oraz do wszystkich nadrzędnych jego kat.
+2. chmod możemy wykonać gdy mamy dostęp do w do kat. nadrzędnego w obec modyfikowanego kat. lub pliku.
