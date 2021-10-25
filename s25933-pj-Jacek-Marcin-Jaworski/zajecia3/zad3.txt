@@ -1,0 +1,2 @@
+Ctrl+C zamknął strumień wejściowy bez zapisu do pliku.
+Ctrl+D zamknął strumień wejściowy z zapisem do pliku (bez utraty danych).
