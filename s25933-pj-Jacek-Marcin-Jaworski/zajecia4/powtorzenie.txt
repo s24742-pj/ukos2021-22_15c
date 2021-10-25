@@ -1,0 +1,46 @@
+1.
+cd ../../../kot/ma/ale
+lub:
+cd /tmp/ukos/kot/ma/ale
+
+2.
+mkdir -p ../../../kot/ma/ale/jan/kowalski
+lub:
+mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+
+3.
+mv ../../../kot/ma/ale ../../i/
+lub:
+mv /tmp/ukos/kot/ma/ale ../../i/
+lub:
+mv ../../../kot/ma/ale /tmp/ukons/ale/i/
+lub:
+mv /tmp/ukos/kot/ma/ale /tmp/ukos/ale/i/
+
+4. kill -9 PID
+
+5. 
+find . -iname 'al*' -type f
+lub
+ls -p | grep 'al.*'
+
+6.
+chmod o+x,g+rx,u+rwx /tmp/ukos/ala
+
+7.
+l=$(find . -type f) && echo "$l" > lista.txt
+lub
+l=$(ls -p) && echo "$l" > lista.txt
+
+8.
+1. Ktoś odebrał prawa zapisu do kat.
+2. Ktoś odebrał prawo wejścia do kat.
+3. Uszkodzony został system plików.
+
+9.
+Klawisz TAB
+oprócz niego zbawienny jest skrót Ctrl+R
+
+10.
+1. nazwa_programu &
+2. nazwa_programu; Ctrl+Z; jobs; bg numer_z_jobs
