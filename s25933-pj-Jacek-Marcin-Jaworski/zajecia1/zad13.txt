@@ -1,0 +1,2 @@
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski/zajecia1$ cd /root
+-shell: cd: /root: Brak dostępu

@@ -1,0 +1,4 @@
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski/zajecia1$ cd ././././././
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski/zajecia1$ echo $?
+0
+
