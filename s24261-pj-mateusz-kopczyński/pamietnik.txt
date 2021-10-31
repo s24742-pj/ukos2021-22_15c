@@ -1,3 +1,11 @@
 2021-09-10
 Na dzisiejszych zajeciach nauczylem sie:
 - jak wyglada struktura plikow systemu operacyjnego Linux oraz tego za co odpowiada i do czego sluzy kazdy z katalogow
+
+2021-10-31
+Podczas wykonywania zadań z zajęć nr 1 oraz 2 nauczyłem się:
+- jak używać polecenia: chmod
+- do czego służy skrót klawiszowy: Ctrl + Alt + F1 
+- jaka jest różnica między operatorem > a >>
+- do czego służy polecenie: tail
+- do czego służy narzędzie: umask i jak wykonywać przesunięcia bitowe związane z tym narzędziem 
