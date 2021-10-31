@@ -1,0 +1,2 @@
+Zmiana operatora operatora > na operator >> w poleceniu echo powoduje to, że zawartość pliku nie jest już NADPISYWANA a jest DOPISYWANA.
+Natomiast komenda tail -f służy do wyświetlania ostatnich wierszy pliku. Bardzo przydatne polecenie gdy chcemy odczytać np. plik w którym znajdują się logi.
