@@ -1,4 +1,4 @@
-31.10.2021
+2021-10-31
 Uruchomiłem terminal, za pomocą polecenia ls wyświetliłem zawartość katalogu w którym się znajduję. 
 Kolejnie przeszedłem do pulpitu, pomogło mi w tym polecenie cd nazwakatalogu. 
 Przy pomocy polecenia pwd sprawdziłem gdzie się aktualnie znajduje. 
