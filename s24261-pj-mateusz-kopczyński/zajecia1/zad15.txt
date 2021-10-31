@@ -1,0 +1,6 @@
+1. touch zajęcia2.txt zajęcia2.log inny.txt nowy.txt
+2. mkdir ukos/to/jest/dluga/nazwa
+3. touch ukos/to/jest/dluga/nazwa/dane.txt
+4. rm  *.txt
+5. rmdir katalog2
+6. rm -rf klamka
