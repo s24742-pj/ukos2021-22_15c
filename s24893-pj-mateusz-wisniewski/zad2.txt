@@ -1,6 +1,0 @@
-1. tworze pliki za pomoca komendy touch
-2. mkdir -p to/jest/dluga/nazwa
-3. touch to/jest/dluga/nazwa/dane.txt
-4. rm ukos/klamka/*.txt
-5. komenda rmdir ukos/katalog/katalog2
-6. rm -rf klamka
