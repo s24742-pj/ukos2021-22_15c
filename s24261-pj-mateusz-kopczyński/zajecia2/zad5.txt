@@ -1,0 +1,12 @@
+Dowiedziałem się, że dzięki poleceniu: umask mogę ograniczyć prawa dostępu do plików, które będą tworzone w danym katalogu.
+Postanowiłem to sprawdzić:
+
+- użyłem polecenia umask 000 aby nadać wszyskim pełne prawa dostępu i stworzyłem plik test.txt
+- następnie użyłem polecenia ls -l aby sprawdzić prawa dostępu do wcześniej utworzonego pliku
+- potem użyłem umask 077 aby nadać pełne uprawnienia dla właściciela a dla grupy i pozostałych brak uprawnień
+- stworzyłem plik test2.txt i sprawdziłem prawa dostępu przy pomocy ls -l
+- aby nadać pełne uprawnienia dla wszystkich, dla grupy tylko odczyt i wykonanie a dla pozostałych tylko odczyt użyłem umask 026
+- stworzyłem plik test3.txt i po raz kolejny sprawdziłem prawa dostępu używając ls -l
+
+
+Na bitach domyślnych praw dostępu oraz maski jest wykonywana operacja przesunięcia bitowego. 
