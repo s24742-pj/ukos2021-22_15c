@@ -1,0 +1,3 @@
+Po wciśnięciu kombinacji klawiszy Ctrl + Alt + F1 nic się nie stało
+Domyślam się, że to dlatego ponieważ jestem połączny przez SSH i nie wykonuje tej kombinacji bezpośrednio na systemie
+Unixowym. Jednak udało mi się wyczytać w internecie, że skrót ten służy do przełączenia się na pierwszy terminal :)

@@ -1,0 +1,1 @@
+Aby przejść do katalogu Obrazy za pomocą ścieżki względnej użyłem polecenia: cd ../../../../Obrazy

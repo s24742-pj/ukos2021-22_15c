@@ -1,0 +1,1 @@
+Aby wyświetlić stan aktualnego katalogu posłużę się poleceniem: ls

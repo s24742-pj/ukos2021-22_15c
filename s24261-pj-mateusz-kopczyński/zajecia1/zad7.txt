@@ -1,0 +1,1 @@
+Tutaj niestety nie wiem w jaki sposób mogę uruchomić ssh w trybie graficznym :(

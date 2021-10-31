@@ -1,0 +1,1 @@
+Do wyświetlenia zawartości katalogu domowego bez przechodzenia do niego użyłem polecenia: ls ~

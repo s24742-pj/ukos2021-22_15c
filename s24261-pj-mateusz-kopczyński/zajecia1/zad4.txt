@@ -1,0 +1,1 @@
+Aby dostać się do katalogu Pulpit użyłem takiej ścieżki względnej: cd ../../../../windows/desktop

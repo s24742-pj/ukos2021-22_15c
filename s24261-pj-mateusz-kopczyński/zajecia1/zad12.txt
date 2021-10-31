@@ -1,0 +1,1 @@
+Aby przejść do swojego katalogu domowego użyłem takiej ścieżki bezwzględnej: cd /home/PJWSTK/s24261

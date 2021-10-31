@@ -1,0 +1,1 @@
+Aby wyświetlić zawartość katalogu w którym się aktaulnie znajduję również użyłem polecenia: ls
