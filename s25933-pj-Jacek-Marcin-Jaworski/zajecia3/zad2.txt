@@ -1,0 +1,1 @@
+kill zadziała tylko dla własnych procesów. Wyjątkiem jest root który może sktuecznie go użyć do wszystkich procesów.

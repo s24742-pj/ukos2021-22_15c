@@ -1,0 +1,16 @@
+Mój pamiętnik z UKOSów będzie krótki.
+Wszystkie zadania wykonałem 25 paź. 2021r. w godzinach 20:00-23:00
+
+Pracuję na linuksie w pracy i korzystam z niego w domu.
+Dlatego większość materiału była mi znana.
+Ale kilku nowych sztuczek się tu nauczyłem. Wymienię je tu:
+
+1. W przypadku kat. flaga x znaczy, że można wejść do danego kat.
+2. W przypadku braku ustawionej flagi x nie zachodzi udostępnianie plików przez serwer www.
+3. Sztuczka z wyświetlniem zmieniajacego sie pliku: tail -f plik 
+4. Możliwość założenia strony domowej na szuflandii.
+5. Skrót Ctrl+D zamykający strumień wejściowy w bezpieczny sposób.
+6. Skrót Ctrl+Z zatrzymujący proces i zwalniający konsolę.
+7. jobs: wyświetlające liststę procesów w tle danej konsoli.
+8. Komendy bg i fg odpowiednio: wznawiająca zamrożony program i przywracające go do konsoli.
+9. Przykładowe kolokwium skłoniło mnie do myślenia i w parę sekund wymyślłem komendę listującą bież. kat. i zapisującą zaw. do pliku.

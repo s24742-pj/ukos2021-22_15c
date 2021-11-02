@@ -1,0 +1,1 @@
+Podczas sesji zdalnej na szuflandii wciśnięcie Ctrl+Alt+F1 nic nie powoduje. Na komp. z sys. op. klasy Unix powoduje przełączenie na terminal nr. 1.

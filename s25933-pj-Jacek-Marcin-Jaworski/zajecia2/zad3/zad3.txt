@@ -1,0 +1,4 @@
+1. Zmiana operator > na >> powoduje dopisywanie do pliku zamiast napisywania pliku.
+2. tail -f blokuje terminal i wyświetla końcówkę pliku w raz z dopisywaniem do niego treści.
+
+

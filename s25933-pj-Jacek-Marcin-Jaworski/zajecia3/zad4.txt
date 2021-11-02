@@ -1,0 +1,10 @@
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski$ nano zajecia3/zad4.txt &
+[1] 17994
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski$ jobs
+[1]+  Zatrzymano              nano zajecia3/zad4.txt
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski$ bg 1
+[1]+ nano zajecia3/zad4.txt &
+s25933@szuflandia:~/ukos2021-22_15c/s25933-pj-Jacek-Marcin-Jaworski$ fg 1
+nano zajecia3/zad4.txt
+
+Działa! Edytor nano został poprawnie przywrócony do konsoli.
