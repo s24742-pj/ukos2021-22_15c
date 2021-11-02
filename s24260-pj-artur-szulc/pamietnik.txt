@@ -1,0 +1,4 @@
+2020-10-21
+Na ostatnich zajeciach nauczylem sie: 
+- struktury systemu linux 
+- informacji o plikach, czym sie zajmuja,jak działaja, co przechowuja.

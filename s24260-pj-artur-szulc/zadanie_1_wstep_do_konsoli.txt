@@ -1,0 +1,10 @@
+2021-10-31
+Uruchomiłem terminal, za pomocą polecenia ls wyświetliłem zawartość katalogu w którym się znajduję. 
+Kolejnie przeszedłem do pulpitu, pomogło mi w tym polecenie cd nazwakatalogu. 
+Przy pomocy polecenia pwd sprawdziłem gdzie się aktualnie znajduje. 
+Następnie użyłem polecenia ls ~, dzięki temu wyświetliłem zawartość mojego katalogu domowego bez przechodzenia do niego. 
+Wszedłem do katalogu Obrazy i ponownie użyłem polecenia pwd do sprawdzenia mojego położenia.
+Po wpisaniu cd ././././././ nie zostaje nigdzie przekierowany. 
+Przeniosłem się do katalogu domowego za pomocą ścieżki bezwzglęgnej, pomocne do tego było polecenie pwd. 
+Gdy użyłem komenty cd /root nie mogłem do niego wejść ponieważ nie miałem do niego uprawnień. 
+Po wykonaniu CTRL+ALT+F1 nic się nie stało, możliwe przez to żę robie to zadnaie na serwerze SSH. 

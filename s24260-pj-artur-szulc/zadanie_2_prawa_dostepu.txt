@@ -1,0 +1,18 @@
+2021-10-31
+Po przeczytaniu "podręcznika programisty linuksa" dla polecenia umask dowiedziałem się:
+- do czego służy maska [nadawanie nowoutworzonym plikom praw dostepu].
+- jaka jest podstawowa wartość maski dla plików [022]
+
+umask ustawiony na:
+0066 - usuwa z pliku mozliwosc czytania dla grupy i innych. [-rw-------]
+0777 - usuwa wszystkie możliwość [możliwy błądw składni. Pytanie do prowadzącego.] [----------]
+0077 - wynik ten sam co 066 [-rw-------]
+0000 - dodaje mozliwość pisania dla grupy i uzytkownika [-rw-rw-rw-]
+0044 - usuwa mozliwosc czytania a dodaje mozliwosc pisania dla grupy i innych [-rw--w--w-]
+0744 - usuwa userowi prawa dostepu, dodaje czytanie grupa i inni [-----w--w-]
+0111 - wynik taki sam jak w przypadku 0000
+
+Sprawdziłem czy mozna zmienić chmod pliku ustawionego przez maske na brak dostepu dla usera. Można, ponieważ jestem
+twórcą pliku.
+
+Operacja która jest wykonywana na bitach domyślnych praw dostępu i maski nazywa się przeniesieniem.
