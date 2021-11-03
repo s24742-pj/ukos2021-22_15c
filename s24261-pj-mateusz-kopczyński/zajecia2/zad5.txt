@@ -9,4 +9,4 @@ Postanowiłem to sprawdzić:
 - stworzyłem plik test3.txt i po raz kolejny sprawdziłem prawa dostępu używając ls -l
 
 
-Na bitach domyślnych praw dostępu oraz maski jest wykonywana operacja przesunięcia bitowego. 
+Na bitach domyślnych praw dostępu oraz maski jest wykonywana operacja przeniesienia. 

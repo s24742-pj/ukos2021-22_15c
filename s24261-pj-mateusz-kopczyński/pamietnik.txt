@@ -8,4 +8,4 @@ Podczas wykonywania zadań z zajęć nr 1 oraz 2 nauczyłem się:
 - do czego służy skrót klawiszowy: Ctrl + Alt + F1 
 - jaka jest różnica między operatorem > a >>
 - do czego służy polecenie: tail
-- do czego służy narzędzie: umask i jak wykonywać przesunięcia bitowe związane z tym narzędziem 
+- do czego służy narzędzie: umask 

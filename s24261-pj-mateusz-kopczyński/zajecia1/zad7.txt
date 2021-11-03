@@ -1,1 +1,3 @@
 Tutaj niestety nie wiem w jaki sposób mogę uruchomić ssh w trybie graficznym :(
+
+Od prowadzącego dowiedziałem się, że taki efekt idzie osiągnąć przy wykorzystaniu X11 forwarding

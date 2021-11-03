@@ -1,1 +1,3 @@
 Używając polecenia: cd ././././././ nie przenosi mnie nigdzie, cały czas znajduję się w tym samym katalogu Obrazy
+
+Dowiedziałem się od prowadzącego, że powyższe polecenie przenosi nas ale cały czas do tego samego katalogu

@@ -1,6 +1,7 @@
-1. touch zajęcia2.txt zajęcia2.log inny.txt nowy.txt
-2. mkdir ukos/to/jest/dluga/nazwa
-3. touch ukos/to/jest/dluga/nazwa/dane.txt
-4. rm  *.txt
-5. rmdir katalog2
-6. rm -rf klamka
+1. Przy pomocy poleceń: mkdir oraz cd tworzę podaną strukturę katalogów
+2. W katalogu ukos/klamka przy pomocy polecenia: touch tworzę podane pliki (zajęcia2.txt, zajęcia2.log, inny.txt, nowy,txt)
+3. Przy pomocy polecenia: mkdir -p jestem w stanie utworzyć w strukturze katalogów wiele katalogów na raz
+4. Plik dane.txt udaję mi się stworzyć przy pomocy polecenia: touch
+5. Do usunięcia z katalogu ukos/klamka wszystkich plików z rozszerzeniem txt używam polecenia: rm  *.txt
+6. Aby usunąć katalog2 używam polecenia: rmdir katalog2
+7. Do usunięcia katalogu klamka wykorzystuje polecenie: rm -rf klamka
