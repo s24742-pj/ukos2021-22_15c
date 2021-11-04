@@ -1,0 +1,2 @@
+operator > nadpisuje zawartość pliku tekstowego, operator >> dodaje do niego zawartość
+komenda tail -f śledzi oraz pokazuje zmiany zachodzące w podanym pliku 
