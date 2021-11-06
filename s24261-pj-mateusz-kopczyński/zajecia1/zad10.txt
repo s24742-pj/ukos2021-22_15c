@@ -1,0 +1,3 @@
+Aby sprawdzić gdzie aktualnie się znajduję ponownie użyłem polecenia: pwd
+
+O to wynik: /home/PJWSTK/s24261/Obrazy

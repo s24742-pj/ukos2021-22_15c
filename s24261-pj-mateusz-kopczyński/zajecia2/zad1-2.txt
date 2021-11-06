@@ -1,0 +1,3 @@
+Zadania 1-2 wykonywaliśmy na zajęciach. Stworzyliśmy małą strukturę katalogów i przydzielaliśmy różne prawa dostępu.
+Z zajęć dowiedziałem się z nich między innymi tego, że można kogoś "zamknąć" w katalogu jeśli nadamy katalogowi odpowiednie prawa dostępu. 
+Użytkownik, który został "zamknięty" w takim katalogu może wydostać się z niego tylko "przeskakując" ten katalog do którego nie ma dostępu.

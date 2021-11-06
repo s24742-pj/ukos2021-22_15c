@@ -1,0 +1,3 @@
+Aby wyświetlić stworzoną przed chwilą stronę pod adresem: http://szuflandia.pjwstk.edu.pl/~s24261/strona.html
+
+Potrzebowałem nadania katalogowi public_html oraz plikowi strona.html praw: chmod a+rwx,g-w,o-w

@@ -1,0 +1,8 @@
+Po wposianiu polecenia: cd /root
+
+Otrzymałem następujący wynik:
+
+s24261@szuflandia:~/UKOS/ukos2021-22_15c/s24261-pj-mateusz-kopczyński/zajecia1$ cd /root
+-shell: cd: /root: Brak dostępu
+
+
