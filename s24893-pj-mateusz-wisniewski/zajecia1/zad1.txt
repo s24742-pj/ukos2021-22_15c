@@ -1,0 +1,14 @@
+1. Urochomiłem terminal
+2. wyświetliłem zawartość aktualnego katalogi za pomocą komendy ls
+3. sprawdzam aktualne położenia za pomocą komendy pwd
+4. przechodze do pulpitu za pomocą komendy cd ../windows/desktop
+5. sprawdzam gdzie jestem za pomocą komendy pwd
+6. sprawdzam zawartosc aktualnego katalogu za pomocą komendy ls
+7. nie jestem w stanie odpowiedziec
+8. sprawdzam zawartość katalogu domowego za pomocą komendy ls ~
+9. przechodzę do katalogu Obrazy za pomocą komendy ../Obrazy
+10. sprawdzam moje położenie za pomocą komendy pwd
+11. używając ścieżki ././././././ znalazłem się w katalogu w którym byłem ../Obrazy
+12. przeszedłem do katalogu domowego za pomocą komendy cd /home/PJWSTK/s24893
+13. brak dostępu
+14. nie jestem w stanie odpowiedziec

@@ -1,0 +1,1 @@
+komenda cd ABC/XYZ może być użyta tylko w wypadku posiadania uprawnien x do katalogu ABC oraz XYZ

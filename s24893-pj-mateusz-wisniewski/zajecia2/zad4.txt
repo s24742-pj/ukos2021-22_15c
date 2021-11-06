@@ -1,0 +1,2 @@
+Aby wyświetlić naszą stronę potrzebujemy prawo wejścia(x) do katalogu public_html, w przypadku jego braku otrzymujemy kod błędu 404 a w przypadku posiadania uprawnien r otrzymujemy kod błędu 403.
+w przypadku pliku strona.html potrzebujemy uprawnien odczytu(r) jesli chcemy zobaczyc zawartosc strony oraz nie otrzymac błędu 403

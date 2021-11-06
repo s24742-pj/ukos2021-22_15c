@@ -1,0 +1,1 @@
+polecenie umask powoduje ograniczenie praw dostępu, ustawienia komendy definiują uprawnienia które mają zostać odjęte od domyślnych ustawień pliku, przykładowo umask 0333 będzie powodował że pliki będą tworzone przy uprawnieniach 333 (-wx-wx-wx) a katalogi 444 (r--r--r--)
