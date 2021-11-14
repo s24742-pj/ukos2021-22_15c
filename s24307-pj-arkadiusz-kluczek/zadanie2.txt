@@ -1,5 +1,6 @@
 ZADANIE PRAWA DOSTEPU
 -Polecenie umask odpowiada za ograniczenie praw dostepu.
+-Umask zmienia standardowe dostępy przy tworzeniu pliku lub katalogu.
 -Wpisując polecenie umask otrzymamy odpowiedz zapisana osemkowo np: 0022
 -Aby ustawic inna wartosc maski nalezy wpisac polecenie np: umask 002
 -Polecenia:
