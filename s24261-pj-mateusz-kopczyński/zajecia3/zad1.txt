@@ -1,0 +1,4 @@
+Znak zapytania oznacza nieznaną wartość
+
+Wszystkie procesy bash wyświetlimy przy pomocy komendy: ps aux | grep bash
+Natomiast wszystkie procesy należące do użytkownika root wyświetlimy przy pomocy komendy: ps -U root -u root u
