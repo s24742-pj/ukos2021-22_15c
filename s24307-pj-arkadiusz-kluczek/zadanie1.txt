@@ -1,0 +1,44 @@
+ZADANIE 1.1
+1.uruchomienie terminala
+2.polecenie ls
+3.polecenie pwd
+4.polecenie cd Desktop
+5.polecenie pwd
+6.polecenie ls
+7.Otzymamy to samo
+8.polecenie ls /home
+9.polecenie cd Pictures
+10.polecenie pwd ---> /home/ubuntu/Pictures
+11.po uzyciu cd ././././././ zostalem w tym samym katalogu
+12.polecenie cd /home
+13. cd /root - permission denied
+14.Wylogowanie z ubuntu
+
+ZADANIE 1.2
+1.
+mkdir ukos
+cd ukos
+mkdir katalog
+mkdir klamka
+cd katalog
+mkdir katalog2
+mkdir katalog3
+2.
+cd klamka
+touch zajecia2.txt
+touch zajecia2.log
+touch inny.txt
+touch nowy.txt
+cd ..
+mkdir -p ukos/to/jest/dluga/nazwa
+3.
+cd ukos/to/jest/dluga/nazwa
+touch dane.txt
+4.
+cd klamka
+rm *.txt
+5.
+cd katalog
+rmdir katalog2
+6.
+rm -rf klamka

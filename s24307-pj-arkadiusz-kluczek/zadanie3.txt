@@ -1,0 +1,26 @@
+Procesy_i_strumienie
+-po wpisaniu ls -a | grep D wyskoczyły mi wszystkie pliki zaczynające się na literę D
+- ls -a | grep D > ListaPlikówZLiterkąD.txt - utworzyło plik tekstowy o nazwie ListaPlikówZLiterkąD.txt
+a w nim: Desktop,Documents,Downloads,ListaPlikówZLiterkąD.txt
+| służy jako przekierowanie wyjścia do innego programu
+> służy jako przekierowanie wejścia do innego pliku
+1.
+Wyświetlenie procesów bash: ps aux | grep bash
+Wyświetlenie procesów root: ps aux | grep root
+2.
+- kill (numer PIDU) zabija proces
+-killall shell - no process found
+-kill zadziała dla dowolnego procesu
+3.
+Podczas tworzenia wyniku1.txt i przerwania go Ctrl+C, okazuje się
+że ta kombinacja skrótów klawiszowych przerywa działanie bez zapisu.
+
+Natomiast kombinacja Ctrl+D przerywa działanie i zapisuje wynik2.txt a w nim "Witaj"
+
+4.
+-sleep 100
+-CTRL+Z -zatrzymanie programu
+-bg -uruchomienie procesu
+-fg - przeniesienie procesu na pierwszy  plan
+-sleep 100 & - utworzenie programu w tle
+-jobs - wyswietlenie programow w tle
