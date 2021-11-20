@@ -1,0 +1,5 @@
+Przy pomocy komendy: nano zad4.txt & uruchomiłem edytor tekstowy w tle.
+Potem przy pomocy komendy: jobs sprawdziłem numer procesu.
+Następnie dzięki komendzie: bg 1 uruchomiłem wcześniej zatrzymany edytor tekstowy.
+Potem używając komendy fg 1 udało mi się przywrócić edytor na pierwszy plan.
+

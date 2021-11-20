@@ -1,0 +1,22 @@
+1. Ścieżka względna: cd ../../../kot/ma/ale
+   Ścieżka bezwzględna: cd /tmp/ukos/kot/ma/ale
+
+2. Ścieżka względna: mkdir -p ../../../kot/ma/ale/jan/kowalski
+   Ścieżka bezwględna: mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+
+3. Ścieżka względna: mv ../../../kot/ma/ale ../../i/
+   Ścieżka bezwzględna: mv /tmp/ukos/kot/ma/ale /tmp/ukos/ale/i/
+
+4. Należy użyć komendy: kill -9 [PID procesu]
+
+5. Należy użyć komendy: ls | grep '^al*'
+
+6. Znajdując się w katalogu /tmp/ukos używam komendy: chmod 751 ala lub komendy: chmod u=rwx,g=rx,o=x ala
+
+7. Używamy do tego komendy: ls > lista.txt
+
+8. Nie mam uprawnień do zapisu (w) w danym katalogu lub nie mam uprawnień do wejścia (x) do danego katalogu 
+
+9. Aby przyśpieszyć wpisywanie komend w terminalu możemy się posiłkować klawiszem TAB, który uzupełnia za nas komendy
+
+10. Aby otworzyć program tak aby nie blokował on terminala musimy użyć na końcu naszego polecenia: & lub możemy włączyć program, potem użyć skrótu ctrl + Z, posłużyć się komendą: jobs aby znaleźć numer zadania a następnie przyrwócić program do działania używając komendy: bg [numer zadania]
