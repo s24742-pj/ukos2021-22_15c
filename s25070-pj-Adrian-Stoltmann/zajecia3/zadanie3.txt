@@ -1,0 +1,58 @@
+0.1 przejdz do swojego katalogu domowego i wydaj komendę ls -a
+
+pokazalo 7 plikow i 6 katalogow
+
+0.2 teraz wykonaj komende ls -a | grep D
+
+nie pokazalo nic poniewaz zaden z moich plikow nie ma literki Dls -a | grep D > ListaPlikówZLiterkąD.txt w nazwie
+
+0.3 teraz wykonaj komende ls -a | grep D > ListaPlikówZLiterkąD.txt
+
+
+Utworzył plik "ListaPlikówZLiterkąD.txt" w ktorym wypisał wszystkie pliki w zazwie ktorych wystepuje literka D (tylko plik ListaPlikówZLiterkąD.txt ktory wlasnie utworzylem ta komendą)
+
+0.4 co znaczy |
+
+Przekierowanie standardowego wyjscia z jednego programu do drugiego programu jako standardowe wejscie. Dzięki temu znacznikowi program grep mogl pobrac dane z programu ls i razem mogly przefiltrowac oraz wypisac pasujące wyniki  
+
+0.5 co znaczy >
+
+Przekierowanie standardowego wyjscia do pliku (nadpisywanie). Dzięki temu poleceniu dzialajace programy ls i grep mogly utworzyć i wypisac wyniki w pliku ListaPlikówZLiterkąD.txt
+
+1.1
+
+ps  wyswietlil moje procesy
+ps -a wyswietlil procesy wszystkich urzytkownikow
+ps x wyswietlil procesy niepodlaczone do obecnego terminala
+ps aux wyswietlil wszystkie procesy wszystkich uzytkownikow, podal uzytkownika ktory uruchomil proces, czas jego dzialania oraz ich ID
+
+1.2 Wyświetl wszystkie procesy bash
+
+ps aux | grep bash
+
+1.3 wyswietl wszystkie procesy nalezace do uzytkownika root
+
+ps aux | grep root
+
+2.1 wlaczylem edytor,
+
+2.2 sprawdzilem poleceniem ps jakie ma on PID
+
+2.3 kill 4563 - wylaczyl proces
+
+2.4 sprawdz dzialanie komendy killall shell
+
+komenda niedozwolona
+
+2.5 zobacz czy kill dziala dla dowolnego procesu
+
+nie dziala dla wszystkich procesow
+
+3.1 w wariancie z ctrl+c w pliku nie zaszly zadne zmiany
+3.2 w wariancie z ctrl+d w pliku zapisał się tekst "witaj"
+
+4.1 wlaczylem plik 1.txt za pomaca vim 1.txt
+4.2 wcisnalem ctrl+z, vim sie zatrzymal lecz dzialal w tle
+4.3 wpisalem bg 1, proces nie jest juz zatrzymany
+4.4 wpisalem fg 1, vim odpalil sie w konsoli
+4.5 wyłączylem go komenda :wq

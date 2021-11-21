@@ -1,0 +1,33 @@
+1. sciezka wzgledna (relatywna) - cd ../../../kot/ma/ale
+   sciezka bezwzgledna (absolutna) - cd /tmp/ukos/kot/ma/ale
+
+2 sciezka wzgledna (relatywna) -  mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+  sciezka bezwzgledna (absolutna) - mkdir -p ../../kot/ma/ale/jan/kowalski
+
+3 sciezka wzgledna (relatywna) -  mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+  sciezka bezwzgledna (absolutna) - mv ../../../kot/ma/ale ../../ala/i/
+ 
+4 kill -SIGKILL id_procesu(PID)
+  id sprawdzamy poleceniem ps aux | grep ...
+
+5 ls | grep -e '^al' > files
+
+6 ósemkowa chmod u=rwx,g=rx,o=x /tmp/ukos/ala
+o-rw,g-w,u+rwx,o+x,g+rx
+  symboliczna chmod 731 /tmp/ukos/ala
+
+7 ls >nowyplik.txt
+
+8 ktos odebral mi prawa zapisu w moim katalogu
+  przeciążenia serwera
+  problemy z internetem po mojej stronie
+
+9 TAB, kombinacja ctrl+R
+
+10.1 program plik &   np. vim 1.txt &
+
+10.2 
+  1. program plik (np vim 1.txt)
+  2. Ctrl+Z - zatrzymaniepliku 
+  3. sprawdzenie IP procesu za pomocą komendy jobs
+  4. powrot do pliku za pomocą bg nr_id
