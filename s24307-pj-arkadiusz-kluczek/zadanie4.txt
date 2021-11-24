@@ -1,0 +1,16 @@
+1.
+sciezka wzgledna: cd ../../../kot/ma/ale
+sciezka bezwzgledna: cd tmp/ukos/kot/ma/ale
+2.
+mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+3.mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+4. kill /SIGKILL/9 -PID (ps aux)
+5. ls -p | grep -v / | grep -e^al
+6. chmod o=x,g=rx,u=rwx /tmp/ukos/ala
+   chmod o-rw,g-w,u+wx,o+x,g+rx
+   chmod 751 gdzie 7-wlasciciel,5-grupa,1-inni uzytkonicy
+7.ls -p > plik.txt
+8.Brak miejsca na dysku
+9.TAB
+10. Po uruchomieniu programu -> CTRL+Z, który spowoduje zatrzymanie procesu i przeniesienie go do tla
+polecenie uruchamiajace program +& spowoduje automatyczne uruchomienie go w tle
