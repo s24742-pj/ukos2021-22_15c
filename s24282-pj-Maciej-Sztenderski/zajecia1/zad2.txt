@@ -1,0 +1,24 @@
+1. mkdir ukos
+cd ukos
+mkdir katalog klamka
+cd katalog
+mkdir katalog2 katalog 3
+2.
+Wracam do ukosa za pomoca komendy cd ..
+cd klamka
+touch zajecia2.txt zajecia2.log inny.txt nowy.txt
+cd ..
+mkdir -p to/jest/dluga/nazwa
+cd to/jest/dluga/nazwa
+touch dane.txt
+wracam do ukosa za pomoca cd ..
+cd klamka
+rm *.txt - usuwam wadasdfaszystkie pliki tekstowy
+cd ..
+cd katalog
+rmkdir katalog2
+cd ..
+rmkdir -r klamka
+
+Koniec
+
