@@ -1,0 +1,16 @@
+1. Terminal uruchomiony
+2. wyswietlanie zawartosci za pomoca polecenia 'ls'
+3. poleceniem 'pwd' sprawdzam gdzie sie znajduje- /home/ubuntu
+4. przechodze do katalogu pulpit poleceniem 'cd Desktop'
+5. polecenie 'pwd' wyswietla ze znajduje sie w /home/ubuntu/Desktop
+6. wyswietlam zawartosc poleceniem 'ls'
+7. przechodzac do /home/ubuntu/Desktop w formie graficznej widze te same pliki co za pomoca ls w terminalu
+8. zrobilem to poleceniem 'ls /home' oraz z miejsca w ktorym sie znajduje /home/ubuntu/Desktop poleceniem 'ls ../..'
+9. z miejsca /home/ubuntu/Desktop uzywam polecenia 'cd ../Pictures
+10. 'pwd' - /home/ubuntu/Pictures
+11. po uzyciu polecenia cd ././././././ nigdzie mnie nie przenioslo
+12. z pozycji /home/ubuntu/Pictures uzywam polecenia 'cd /home'
+13. po wpisaniu polecenia 'cd /root' wyswietlila sie odmowa dostepu wiec uzylem 'sudo bash' i przenioslo mnie do katalogu /root
+14.uzywajac kombinacji Ctrl+alt+f1 przechodzimy do stylu tekstowego z graficznego?
+
+
