@@ -1,0 +1,3 @@
+chmod 751 /tmp/ukos/ala
+chmod u=rwx,g=rx,o=x, /tmp/ukos/ala (mozna uzyc rowniez a=x)
+
