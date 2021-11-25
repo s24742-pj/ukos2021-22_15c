@@ -1,1 +1,6 @@
-9.10.2021 Na dzisiejszych zajeciach nauczylem sie: -konfigurowac program virtualbox -foldery w linux i ich zastosowanie
+9.10.2021 Na dzisiejszych zajeciach nauczylem sie: 
+-konfigurowac program virtualbox 
+-foldery w linux i ich zastosowanie
+23.10.2021 Na dzisiejszych zajęciach nauczylem sie:
+-łączenia się z szuflandią 
+-zarządzaniem uprawnieniami 
