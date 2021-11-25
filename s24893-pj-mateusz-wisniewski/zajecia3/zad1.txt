@@ -1,0 +1,2 @@
+procesy bash wyświetlimy za pomocą komendy ps aux | grep bash
+procesy należące do użytkownika root wyświetlimy za pomocą komendy ps -u root

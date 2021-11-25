@@ -1,0 +1,1 @@
+Wyszukało pliki zawierającę literę "D" i pokazało je w terminalu

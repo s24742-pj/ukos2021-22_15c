@@ -1,0 +1,7 @@
+
+komendą cat > test.txt utworzyłem plik tekstowy test.txt oraz mam możliwość wpisania jego zawartości.
+ctrl+z pozwala mi na zatrzymanie i przeniesienie programu do tła
+komenda bg pozwala mi na uruchomienie zatrzymanego procesu oraz komenda fg pozwala mi go przenieść na pierwszy plan
+komenda cat > test2.txt & pozwala na stworzenie pliku tekstowego oraz uruchomienie go w tle
+komenda jobs pozwala wyswietlic liste zadan przeniesionych do tla
+komenda bg (w tym wypadku bg 5) pozwala uruchomic zatrzymany program test2.txt, komenda fg 5 pozwala przywrócić go na pierwszy plan.
