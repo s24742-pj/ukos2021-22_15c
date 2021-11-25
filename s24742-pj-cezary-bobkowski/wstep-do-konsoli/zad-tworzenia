@@ -1,0 +1,10 @@
+1. z pozycji /home/ubuntu/Desktop uzywam polecenia 'mkdir ukos' nastepnie 'cd ukos' -> 'mkdir katalog klamka' -> 'cd katalog' -> 'mkdir katalog2 katalog3'
+2. zajduje sie w /home/ubuntu/Desktop/ukos/katalog uzywam polecen 'cd ../klamka' -> 'touch zajecia2.txt' -> 'touch zajecia2.log' -> 'touch inny.txt' -> 'touch nowy.txt'
+3. przechodze do 'cd /home/ubuntu/Desktop' i uzywam polecenia 'mkdir -p ukos/to/jest/dluga/nazwa
+4. 'touch ukos/to/jest/dluga/nazwa/dane.txt'
+5. 'rm ukos/klamka/(gwiazdka).txt' - gdy klikam "gwiazdke" na klawiaturze zmienia sie ona w <F3> dlatego napisalem to jakos (gwiazdka) co oznacza zaznaczenie wszystkich plikow z rozszerzeniem .txt
+6. 'rmdir ukos/katalog/katalog2'
+7. 'rm -m ukos/klamka'
+
+od zadania 4 do 7 znajdowalem sie ciagle w /home/ubuntu/Desktop'
+

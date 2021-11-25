@@ -1,0 +1,9 @@
+polecenie 'umask' ogranicza  prawa dostepu tworzonym plikom w danym katalogu. Podstawowa wartoscia dla 'umask' jest 022
+uzylem paru polecen 'umask' z roznymi parametrami za kazdym razem tworzac plik i sprawdzajac prawa poleceniem 'ls -l'
+'umask 000' -> 'touch 1.txt' -> 'ls -l' - wszyscy dostaja pelne prawa do pliku (jak w przypadku chmod 777)
+'umask 077' powoduje usuniecie praw dla grup oraz "inni"
+'umask 777' powoduje usuniecie praw wszystkim
+'umask 027' powoduje przyznaniem praw dla grupy do czytania oraz usuwania oraz odebrania wszystkich praw dla "inni"
+
+Stosowana operacja logiczna jest AND
+

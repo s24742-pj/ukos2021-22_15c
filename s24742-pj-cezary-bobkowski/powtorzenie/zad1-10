@@ -1,0 +1,26 @@
+1. /tmp/ukos/ala/ma/kota <- tu jestem
+
+wzglednie-> 'cd ../../../kot/ma/ale'
+
+bezwzglednie-> 'cd /tmp/ukos/kot/ma/ale'
+
+2. 'mkdir -p ../../../kot/ma/ale/jan/kowalski'
+
+3. 'mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i'
+
+4. poleceniem 'kill pid' <-pid programu
+
+5. 'ls -p | grep -v / | grep -e ^al'
+
+6. 'chmod o=x,g=rx,u=rwx /tmp/ukos/ala'
+'chmod o-rw,g-w,u+rwx,o+x,g+rx /tmp/ukos/ala'
+
+7. 'ls > plik.txt'
+
+
+8. brak miejsca na dysku
+
+9. uzyc klawisza tab
+
+10. uruchomic program oraz przycisnac ctrl+z lub uruchomic z dodatkiem & w poleceniu 'gimp &'
+

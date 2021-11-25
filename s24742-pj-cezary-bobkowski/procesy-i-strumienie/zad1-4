@@ -1,0 +1,36 @@
+'ls -a' wywietlilo wszystkie pliki znajdujace sie w katalogu domowym (-a=all)
+
+'ls -a | grep D ' wyswietlilo wszystkie pliki zawierajaca litere D
+
+'ls -a | grep D > ListaPlikowZLiterkaD.txt' utworzylo plik tekstowy z nazwami plikow w ktorych znajduje sie literka D
+
+'>' przekierowuje wyjscie do pliku w przypadku wyzej ls zostalo przekierowane do pliku tekstowego
+
+1. w drugiej kolumnie znak zapytania oznacza wartosc nieznana
+
+1.1 Wyswietlenie procesow bash poleceniem 'ps aux | grep bash'
+1.2 procesy uzytkowniaka root 'ps -U root -u root u
+
+2.
+2.1 uruchomilem vim
+2.2 skorzystalem z polecenia 'pgrep vim' wyswietlilo mi ze pid vim'a to 2223
+2.3 polecenie 'kill 2223' zamknelo vim'a
+2.4 po wprowadzeniu polecenia 'killall shell' wyswietlilo ze nie znaleziono procesu
+'killall shell' doprowadziloby do "zabicia" procesow shell
+
+3.
+po wpisaniu witaj i przycisnieciu ctrl+c w pliku wynik1.txt nic sie nie znalazlo
+
+po wpisaniu witaj i przycisnieciu ctrl+d w pliku wynik2.txt znalazlo wczesniej napisane witaj
+
+4.
+po uruchomieniu gimp oraz przycisniecia ctrl+z program zostal zatrzymany
+
+polecenie 'bg'-backgroud wyswietla programy zatrzymane w tle
+
+polecenie 'fg'-firtgroud przywraca program na 1 plan i znowu morzemy go uzywac
+
+dodajac znak & mozna uruchomic program odrazu w tle
+
+'gedit'->ctrl+z->'jobs'->'fg 1'
+gedit zostal przywrocony na 1 plan 
