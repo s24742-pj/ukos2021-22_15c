@@ -4,3 +4,9 @@
 23.10.2021 Na dzisiejszych zajęciach nauczylem sie:
 -łączenia się z szuflandią 
 -zarządzaniem uprawnieniami 
+06.11.2021 Na dzisiejszych zajęciach nauczyłem się:
+-Zarządziania procesami 
+-Pojęcia grep
+20.11.2021 Na dzisiejszych zajęciach nauczyłem się:
+-wypisywania katalogów według parametru
+-różnicy między ścieżką względną a bezwzględną
