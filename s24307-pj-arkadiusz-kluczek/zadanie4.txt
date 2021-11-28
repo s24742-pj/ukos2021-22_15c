@@ -1,6 +1,6 @@
 1.
-sciezka wzgledna: cd /../../../kot/ma/ale
-sciezka bezwzgledna: cd tmp/ukos/kot/ma/ale
+sciezka wzgledna: cd ../../../kot/ma/ale
+sciezka bezwzgledna: cd /tmp/ukos/kot/ma/ale
 2.
 mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
 3.mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
