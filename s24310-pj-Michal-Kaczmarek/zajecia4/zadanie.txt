@@ -1,0 +1,32 @@
+1.
+- względna: cd ../../../kot/ma/ale
+-bezwględna: /tmp/ukos/kot/ma/ale
+2.
+-mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+3.
+-mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+4.
+-poleceniem ps aux należy psrawdzić nr PID programu który nie reaguje na ctrl+c
+-następnie należy wpisać polecenie kill -9 PID (albo kill - KILL PID)
+5.
+-można to zrobić za pomocą polecenia find . | grep -v . | grep ^al
+6.
+- chmod 741 ala
+
+- chmod u=rwx
+chmod g=r
+chmod o=x
+
+7.
+ls >> lista.txt
+
+8.
+-przez przypadek mogliśmy zmienić uprawnienia do swojego katalogu uczelnianego
+-administrator przez pomyłkę (lub nie) zmienił nam uprawnienia do katalogu
+
+9.
+jest to przycisk "Tab" na klawiaturze
+
+10.
+-uruchamiamy program, następnie go zatrzymujemy, kominacją klawiszy Ctrl+Z i "odmrażamy" w tle za pomocą komendy "bg"
+-wywołujemy program z "&" na końcu co odrazu przenosi go do pracy w tle

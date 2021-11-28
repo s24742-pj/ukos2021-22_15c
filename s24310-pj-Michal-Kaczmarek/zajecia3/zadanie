@@ -1,0 +1,33 @@
+- polecnie ls -a wypisalo pliki i katalogi w katalogu domowym, wlacznie z tymi ukrytymi, jest dosyć dużo wyników.
+- dodatnie do polecenie "grep D" wyfiltrowalo wyniki, pokazujac tylko te ktore posiadaja w swojej nazwie litere "D"
+- polecenie utworzyło plik "ListaPlikówZLiterkąD.txt" który zwiera pliki z literą D, w tym samego siebie. Znak "|" jest potokiem, czyli przesyła dane z jednego polecenia do drugiego,
+znak ">" jest natomiast przekierowaniem strumienia, czyli np może wysłać wynik z polecnia do pliku.
+
+1. 
+-ps - wyświetla liste procesów do których użytkownik ma dostęp
+-ps -a - wyświetla najczęściej używane procesy
+-ps x - wyświetlenie wszystkich procesów których użytkownik jest właścicielem
+-ps aux - wyświetla wszystkie procesy, niezależnie od użytkownika dla którego zostały stworzone razezm z jego nazwą (użytkownika)
+
+-znak zapytania w kolumnie "tty" oznacza że proces nie pracuje w żadnym terminalu
+-
+wyśiwetlić wszystkie procesy bash można za pomocą polecenia "ps aux | grep bash"
+-wyświetlić prcoesy należące do użytkownika root można zapomocą polecnia "ps aux | grep ^root"
+
+2.
+-uruchomiłem program tekstowy Gedit
+-jesgo PID to 1134 (sprawdzone za pomocą ps x)
+-po wydaniu polecenia kill 1134 program się zamknął
+-można do precesu wysłać SIGKILL
+-tak, można zabić dowolny proces poleceniem kill
+
+3.
+-po wciśnięciu ctrl+C przy komendzie cat z przekierowaniem strumienia, w pliku nic się nie zapisze, będzie on pusty, natomiast jeżeli wciśniemy komnbinację 
+klawiszy ctrl+D w pliku zapisze to co dotychczas było zapisane w poleceniu cat. Jest tak dlatego że ctrl+C kończy proces a ctrl+D kończy strumień wejścia.
+
+4.
+-po uruchomieniu programu gedit(zamiast gimp) i wciśnięciu ctrl+Z program został zatrzymany i nie można było nic wpisywać
+-aby wznowić jego działanie należało przejść do terminala i wpisać komendę bg, która "odmroziła" gedit aby mógł działać w tle
+-po wpisaniu komendy fg program jakgdyby uruchomił się w teminalu
+- umieszczając znak & można wywołać proces odrazu działający w tle
+-poleceniem jobs sprawdzamy programy uruchomione w tle

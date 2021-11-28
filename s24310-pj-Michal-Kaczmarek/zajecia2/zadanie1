@@ -4,21 +4,25 @@ lub tworzyc folderow w katalogach innych niz wlasne.
 Jako wlasciciel wlasnego katalogu mozemy usuwac i modyfikowac pliki innych uzytownikow
 
 
-Usuwajac prawa dostepu do katalogu bierzacego nie mozemy nic w nim zrobic, nawet przywrocic dostepu,
-dopiero po przeniesieniu sie do katalogu nadrzednego mozna nadpisac prawa dostepu
+2. Usuwajac prawa dostepu do katalogu bierzacego nie mozemy nic w nim zrobic, nawet przywrocic dostepu,
+dopiero po przeniesieniu sie do katalogu nadrzednego mozna nadpisac prawa dostepu. Jeżeli chodzi o polecenie cd to możemy się cofnąć do katalogu nadrzędnego
+natomiast nie można przejść do katalogu który znajduje się dalej.
 
 usuwajac prawa dostepu do katalogu nadrzednego nie mozemy sie cofnac poleceniem cd ..
 wyjsciem z tej sytuacji jest zastosowanie sciezki bezwglednej
+Jeżeli chodzi o polecnie chmod, nadal możemy edytować uprawnienia do katalogu, mimo że nie mamy uprawnień do katalogu nadrzędnego.
 
 bez dostepu do katalogu nie mozemy przejsc do pliku lub katalogu ktory sie w nim znajduje
 
-polecenie follow pokazuje ostatnie zmiany jakie znalazly sie w pliku zamiast wyswietlac calej jego zawarosci,
+3 polecenie tail z parametrem -f pokazuje ostatnie zmiany jakie znalazly sie w pliku  (na bierząco) zamiast wyswietlac calej jego zawarosci,
 moze byc to przydatne np podczas checi odczytu logow kiedy pliki maja tysiace wierszy
 
 zmiana z ">" na ">>" powoduje dopisanie do pliku zamiast jego nadpisania
 
-nie wiem czy tak powinno być, jednak mimo ustawienia katalogu domowego na szuflandii oraz pliku na 777 (nie powinno się tak robić, wykorzystne tylko na chwilke do celow sprawdzenia)
-nie moge wyswietlic pliku strona.html w prezgladarce z powodu tego zez nie ma dostepu
+4. minimalne prawa dostępu jakie należy przydzielić to:
+- katalog domowy - prawo do odczytu 
+-katalog public_html - prawo do odczytu
+-strona.html - prawo do wykoniania
 
 polecenie umask umozliwia tymczasowe przypisanie maski, w efekcie mozemy tworzyc pliki i katalogi z konkretnymi prawami dostepu
 operacja logiczna wykorzystywana w poleceniu umask to AND
