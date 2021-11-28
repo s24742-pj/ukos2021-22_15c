@@ -1,10 +1,12 @@
 1.
-sciezka wzgledna: cd ../../../kot/ma/ale
+sciezka wzgledna: cd /../../../kot/ma/ale
 sciezka bezwzgledna: cd tmp/ukos/kot/ma/ale
 2.
 mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
 3.mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
-4. kill /SIGKILL/9 -PID (ps aux)
+4. 
+polecenie ps aux(otrzymuje PID programu)
+polecenie kill -9 PID
 5. ls -p | grep -v / | grep -e^al
 6. chmod o=x,g=rx,u=rwx /tmp/ukos/ala
    chmod o-rw,g-w,u+wx,o+x,g+rx
