@@ -1,0 +1,1 @@
+pozwala nam na to użycie & na koncu polecenia co uruchamia nasz program w tle lub sktór klawiszowy ctrl+z

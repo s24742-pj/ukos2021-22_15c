@@ -1,0 +1,2 @@
+kill -9 (lub -kill lub -sigkill) PID
+PID sprawdzamy poleceniem ps.
