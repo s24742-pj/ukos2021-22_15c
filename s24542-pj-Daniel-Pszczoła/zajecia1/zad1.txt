@@ -1,11 +1,14 @@
 Zadanie 1.1
 -Po wyświetleniu zawartości aktualnego folderu znajduję się w terminalowej adaptacji home folderu
--Po przejściu do katalogu Pulpit/Desktop widać pliki tekstowe znajdujące się na pulpicie, taką samą zawartość widać w interfejsie graficznym
+-Po przejściu do katalogu za pomocą ls ./Pulpit/Desktop widać pliki tekstowe znajdujące się na pulpicie, taką samą zawartość widać w interfejsie
+ graficznym
 -Używając ls /home/ubuntu wyświetlił się katalog domowy
--Uzywając cd Pictures przeniosło do katalogu obrazy
+-Uzywając cd ./Pictures przeniosło do katalogu obrazy
+-jestem w ./home/ubuntu/Pictures
+-wpisując cd ././././././ nic się nie dzieje, znajduję się dalej w tej samej lokalizacji
 -Za pomocą cd /home/ubuntu przechodzę do katalogu głównego
 -Wpisanie komendy cd /root wyświetla komunikat o braku uprawnień do folderu
--Skrót ctrl+alt+f1 wyświetla ekran logowania
+-Skrót ctrl+alt+f1 wyświetla konsolę
 Zadanie 1.2
 -Komenda touch zajęcia2.txt zajęcia2.log inny.txt tworzy pliki tekstowe
 -Komenda mkdir to/jest/dluga/nazwa tworzy katalogi

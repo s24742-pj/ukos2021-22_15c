@@ -1,0 +1,51 @@
+1.
+względna:
+/../../../kot/ma/ale
+
+bezwzględna:
+/tmp/ukos/kot/ma/ale
+
+2.
+mkdir -p  /tmp/ukos/kot/ma/ale/jak/kowalski
+
+3.
+
+mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+
+4.
+
+komendą ps aux sprawdzić pid programu a następnie komendą kill -9 PID zamknąć program
+
+5.
+
+find ./ grep -v . | grep ^al
+
+6.
+
+chmod 741 ala
+
+chmod u=rwx ala
+cmod g=r ala
+chmod o=x ala
+
+7.
+
+ls > lista.txt
+
+8.
+
+-administrator serwera przez pomyłkę zmienił uprawnienia dla konta
+-robiąc zadania mogliśmy zmienić uprawnienia do swojego katalogu
+
+9.
+
+klawisz TAB
+
+10.
+
+-uruchamiamy program po czym zatrzymujemy go sktótem Ctrl + Z a nastepnie komendą bg uruchamiamy go w tle
+-uruchamiamy program wpisując w terminalu nazwę i znak & po spacji
+
+
+
+
