@@ -1,11 +1,13 @@
 1. sciezka wzgledna (relatywna) - cd ../../../kot/ma/ale
    sciezka bezwzgledna (absolutna) - cd /tmp/ukos/kot/ma/ale
 
-2 sciezka wzgledna (relatywna) -  mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
-  sciezka bezwzgledna (absolutna) - mkdir -p ../../kot/ma/ale/jan/kowalski
+2 sciezka wzgledna (relatywna) -  mkdir -p ../../kot/ma/ale/jan/kowalski
 
-3 sciezka wzgledna (relatywna) -  mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
-  sciezka bezwzgledna (absolutna) - mv ../../../kot/ma/ale ../../ala/i/
+  sciezka bezwzgledna (absolutna) -  mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+
+3 sciezka wzgledna (relatywna) - mv ../../../kot/ma/ale ../../ala/i/
+
+  sciezka bezwzgledna (absolutna) - mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
  
 4 kill -SIGKILL id_procesu(PID)
   id sprawdzamy poleceniem ps aux | grep ...
@@ -28,6 +30,6 @@ o-rw,g-w,u+rwx,o+x,g+rx
 
 10.2 
   1. program plik (np vim 1.txt)
-  2. Ctrl+Z - zatrzymaniepliku 
-  3. sprawdzenie IP procesu za pomocą komendy jobs
-  4. powrot do pliku za pomocą bg nr_id
+  2. Ctrl+Z - zatrzymanie programu	
+  3. sprawdzenie numeru procesu za pomocą komendy jobs
+  4. powrot do programu za pomocą bg nr_procesu_z_jobs
