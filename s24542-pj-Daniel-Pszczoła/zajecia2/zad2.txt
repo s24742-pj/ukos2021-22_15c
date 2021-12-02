@@ -1,21 +1,21 @@
 1.
-Po utworzeniu struktury katalogów i przydzieleniu praw sprawdiłem katalog innego użytkownika.
+Po utworzeniu struktury katalogów i przydzieleniu praw sprawdziłem katalog innego użytkownika.
 
-Do katalogów mogłem wejść i sprawdzić strukture katalogów natomiast nie mogłem wyświetlić zawartości plików
+Do katalogów mogłem wejść i sprawdzić strukturę katalogów natomiast nie mogłem wyświetlić zawartości plików
 oraz tworzyć folderów i ich usuwać.
 
 2.
--Po usunięciu praw dostępu do katalogu bierzącego nie można nic w nim wykonywać żeby przywrócić dostęp do katalogu trzeba  przenieśc się
+-Po usunięciu praw dostępu do katalogu bierzącego nie można nic w nim wykonywać żeby przywrócić dostęp do katalogu trzeba przenieśc się
 do katalogu nadrzędnego i napisać prawa dostępu.
 
--Usunięcie prawa dostępu do katalogu madrzędnego zablokowało opcję wyjścia z katalogu rozwiązaniem okazało się zastosowanie ścieżki bezwzględnej
+-Usunięcie prawa dostępu do katalogu nadrzędnego zablokowało opcję wyjścia z katalogu rozwiązaniem okazało się zastosowanie ścieżki bezwzględnej
 
 cd można wykonać aby cofnąć się do katalogu nadrzędnego ale nie by przejść dalej
 
 bez dostępu do katalogu nie można przejść do pliku lub katalogu który się w nim znajduje
 
 3.
-Zmiana operatora z > na  >> powoduje że traść komunikatu zostanie dopisana do pliku zamiast jego nadpisania
+Zmiana operatora z > na  >> powoduje że treść komunikatu zostanie dopisana do pliku zamiast jego nadpisania
 
 Polecenie tail -f pokazuje zmiany jakie zaszły w pliku zamiast wyświetlic cały plik
 
