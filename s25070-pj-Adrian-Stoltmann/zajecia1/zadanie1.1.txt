@@ -1,0 +1,41 @@
+Zadanie 1
+1. Uruchom terminal.
+
+2. wyswietl zawartosc aktualnego katalogu
+ polecenie   ls
+
+3. sprawdz gdzie sie znajdujesz
+ polecenie pwd
+
+4. przejdz do pulpitu
+ polecenie   cd Desktop
+
+5 sprawdz gdzie jestes
+ polecenie    pwd
+
+6. wyswietl zawartosc
+ polecenie    ls
+
+7. zobacz czy przechodzac do tego katalogu w sposob graficzny otrzymamy to samo
+ tak otrzymamy to samo co przez terminal
+
+8. wyswietl zawartosc swojego katalogu domowego bez przechodzenia do niego
+ polecenie    ls /home
+
+9. przejdz do katalogu obrazy za pomoca sciezki wzglednej
+ polecenie    cd ../Pictures
+
+10. sprawdz gdzie jestes 
+ polecenie    pwd
+
+11. sprawdz do jagiego katalogu przejdziesz uzywajac sciezki ././././././
+ polecenie    cd ././././././ 
+
+12. przejdz do katalogu domowego za pomoca sciezki bezwzglednej
+ polecenie    cd /home
+
+13. zobacz co sie stanie po wpisaniu cd /root
+ terminal odmawia dostepu
+
+14. co sie stanie po wbiciu kombinacji klawiszy ctrl+alt+f1
+ zmiana termianala na interfejs graficzny, do konsoli mozna wrocic poleceniem ctrl+alt+f7
