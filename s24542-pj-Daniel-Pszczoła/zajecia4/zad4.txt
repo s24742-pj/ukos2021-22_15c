@@ -1,6 +1,6 @@
 1.
 względna:
-/../../../kot/ma/ale
+../../../kot/ma/ale
 
 bezwzględna:
 /tmp/ukos/kot/ma/ale
@@ -18,7 +18,7 @@ komendą ps aux sprawdzić pid programu a następnie komendą kill -9 PID zamkn�
 
 5.
 
-find ./ grep -v . | grep ^al
+find .| grep -v .| grep ^al
 
 6.
 
@@ -34,8 +34,8 @@ ls > lista.txt
 
 8.
 
--administrator serwera przez pomyłkę zmienił uprawnienia dla konta
--robiąc zadania mogliśmy zmienić uprawnienia do swojego katalogu
+-pracując na prawach do naszego katalogu zabraliśmy dostęp do katalogu
+-w tej samej sytuacji można było zabrać prawo do zapisu
 
 9.
 
@@ -43,7 +43,7 @@ klawisz TAB
 
 10.
 
--uruchamiamy program po czym zatrzymujemy go sktótem Ctrl + Z a nastepnie komendą bg uruchamiamy go w tle
+-uruchamiamy program po czym wstrzymujemy go sktótem Ctrl + Z a nastepnie komendą bg wznawiamy w tle
 -uruchamiamy program wpisując w terminalu nazwę i znak & po spacji
 
 

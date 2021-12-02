@@ -9,7 +9,7 @@ znak | jest potokiem co oznacza ze przesyła dane z jednego polecenia do drugieg
 
 1.
 -ps:  lista procesów do których użytkownik ma dostęp
--ps -a:  wyświetla najczęściej używane procesy
+-ps -a:  wyświetla wszystkie procesy wraz z tymi nie podłączonymi do terminali
 -ps x: wyświetla listę wszystkich procesów których właścicielem jest użytkownik
 -ps aux: wyświetla wszystkie procesy niezaleznie od tego gdzie zostały wykonane
 
@@ -17,7 +17,7 @@ Znak zapytania w kolumnie o nazwie TTY oznacza że program nie funkcjonuje w ża
 
 Polecenie ps aux | grep bash
 
-Polecenie ps aux | grep ^root wyświetli procesy użytkownika root
+Polecenie ps aux | grep -e ^root wyświetli procesy użytkownika root
 
 2.
 
@@ -35,7 +35,7 @@ natomiast zastosowanie skrótu Ctrl + D zapisze plik i wpisana przez nas treść
 4.
 
 -Uruchomiłem program gedit
--Po zastosowaniu skrótu Ctrl + Z program zostaje zatrzymany, okno edytora dajej jest widoczne jednak nie mozna w nie wejść i w nim poracować
--Komenda bg  wznowiła prace programu w tle co pozwala kontynuowac pracę jednak program nie jest uruchomiony w terminalu
+-Po zastosowaniu skrótu Ctrl + Z program zostaje zatrzymany, okno edytora dalej jest widoczne jednak nie mozna w nie wejść i w nim poracować
+-Komenda bg wznowiła prace programu w tle co pozwala kontynuowac pracę jednak program nie jest uruchomiony w terminalu
 -komenda fg przenosi program na pierwszy plan terminala
 -uzycie skrótu Ctrl + C zamyka program
