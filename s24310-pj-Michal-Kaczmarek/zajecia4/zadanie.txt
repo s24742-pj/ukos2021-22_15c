@@ -6,10 +6,10 @@
 3.
 -mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
 4.
--poleceniem ps aux należy psrawdzić nr PID programu który nie reaguje na ctrl+c
+-poleceniem ps aux należy sprawdzić nr PID programu który nie reaguje na ctrl+c
 -następnie należy wpisać polecenie kill -9 PID (albo kill - KILL PID)
 5.
--można to zrobić za pomocą polecenia find . | grep -v . | grep ^al
+-można to zrobić za pomocą polecenia ls | grep ^al
 6.
 - chmod 741 ala
 
@@ -21,8 +21,8 @@ chmod o=x
 ls >> lista.txt
 
 8.
--przez przypadek mogliśmy zmienić uprawnienia do swojego katalogu uczelnianego
--administrator przez pomyłkę (lub nie) zmienił nam uprawnienia do katalogu
+- jako właściciel folderu przez przypadek mogliśmy zmienić jego uprawnienia tak że nie mamy prawa do zapisu
+- jako właściciel folderu przez przypadek mogliśmy zmienić jego uprawnienia tak że nie mamy prawa do wejścia do naszego katalogu
 
 9.
 jest to przycisk "Tab" na klawiaturze

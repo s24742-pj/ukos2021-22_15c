@@ -12,11 +12,12 @@ znak ">" jest natomiast przekierowaniem strumienia, czyli np może wysłać wyni
 -znak zapytania w kolumnie "tty" oznacza że proces nie pracuje w żadnym terminalu
 -
 wyśiwetlić wszystkie procesy bash można za pomocą polecenia "ps aux | grep bash"
--wyświetlić prcoesy należące do użytkownika root można zapomocą polecnia "ps aux | grep ^root"
+-wyświetlić prcoesy należące do użytkownika root można zapomocą polecnia "ps aux | grep ^root" (można by to było rózwnież zrobić z pomocą parametru -e
+polecenia grep, jednak w tym przypadku wynik nie będzie zgodny z poleceniem, ponieważ właścicielem ostatniego procesu jest ubuntu)
 
 2.
 -uruchomiłem program tekstowy Gedit
--jesgo PID to 1134 (sprawdzone za pomocą ps x)
+-jego PID to 1134 (sprawdzone za pomocą ps x)
 -po wydaniu polecenia kill 1134 program się zamknął
 -można do precesu wysłać SIGKILL
 -tak, można zabić dowolny proces poleceniem kill
