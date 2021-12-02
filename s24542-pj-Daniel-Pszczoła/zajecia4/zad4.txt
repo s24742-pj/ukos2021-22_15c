@@ -18,7 +18,7 @@ komendą ps aux sprawdzić pid programu a następnie komendą kill -9 PID zamkn�
 
 5.
 
-find .| grep -v .| grep ^al
+ls | grep ^al
 
 6.
 
@@ -34,8 +34,8 @@ ls > lista.txt
 
 8.
 
--pracując na prawach do naszego katalogu zabraliśmy dostęp do katalogu
--w tej samej sytuacji można było zabrać prawo do zapisu
+-pracując na uprawnieniach do naszego katalogu zabraliśmy dostęp do katalogu
+-w tej samej sytuacji można było zabrać uprawnienie do zapisu
 
 9.
 
@@ -43,7 +43,7 @@ klawisz TAB
 
 10.
 
--uruchamiamy program po czym wstrzymujemy go sktótem Ctrl + Z a nastepnie komendą bg wznawiamy w tle
+-uruchamiamy program po czym wstrzymujemy go skrótem Ctrl + Z a nastepnie komendą bg wznawiamy w tle
 -uruchamiamy program wpisując w terminalu nazwę i znak & po spacji
 
 
