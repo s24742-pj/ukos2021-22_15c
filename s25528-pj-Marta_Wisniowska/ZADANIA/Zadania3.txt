@@ -1,0 +1,13 @@
+1. Komedna ps z rozszerzeniami, jest niezwykle istotną komendą, dzieki której jesteśmy w stanie wyświetlić procesy, które zachodzą w "komputerze".
+2. Każdy proces ma swój PID, dzieki któremu jesteśmy w stanie skupić się bezpośrednio na danym.
+3. Może na przykładzie swojego problemu, który mnie spotkał w trakcie zajęć, opiszę w jaki sposób wspólnie używałam komend ps, kill, grep:
+- logowałam się na serwerze szuflandii,
+- ze względu na kiepskie łącze, serwer "wyrzucał" mnie z sieci
+- mimo wylogowania w dalszym ciągu mój proces na serwerze był aktywny
+- po trzech analogicznych sytuacjach zablokowałam możliwośc kolejnego zalogowania, ze względu na istnienie już 3 procesów z moiom userem
+- tu o wsparcie poprosiłam wykładowcę, który z poziomu administratora mógł problem rozwiązać
+- mając na uwadzę ten fakt, za każdym razem gdy w trakcie pracy serwer mnie "wyrzucił" z sieci, po ponownym zalogowaniu wykonywałam następujące czynności:
+a) poprzez polecenie ps -aux wyświetlałam wszystkie procesy, które aktualnie zachodzą na serwerze
+b) aby w długiej liście procesu nie szukać tego, który mnie interesuje korzystałam z komendy ps -aux |grep s25528 (w ten sposób znalazłam tylko te które były związane z moim kontem)
+c) następnie po odnalezieniu interesującego mnie PID wpisywałam komendę: kill (numer procesu) 
+
