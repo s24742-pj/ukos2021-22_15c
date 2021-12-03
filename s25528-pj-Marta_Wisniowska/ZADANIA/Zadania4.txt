@@ -1,0 +1,20 @@
+1. Utworzyłam katalogi zgodnie ze schematem.
+a) ścieżka bezwzgędna: cd /home/PJWSTK/s25528/Ćwiczenie/kot/ma/ale
+b) ścieżka względna: cd ../../../kot/ma/ale
+2. Aby utworzyć kolejny katalog w naszych stworzonych wcześniej możemy:
+a) ścieżka bezwględna: mkdir -p /home/PJWSTK/s25528/Ćwiczenie/kot/ma/ale/jan/kowalski
+b) ścieżka względna: mkdir -p ../../../kot/ma/ale/jan/kowalski
+3. Aby przenieść katalog ale do i:
+a) ścieżka bezwględna: mv /home/PJWSTK/s25228/Ćwiczenie/kot/ma/ale ../../i/
+b) ścieżka względna: mv ../../../kot/ma/ale ../../i/
+4. Aby zamknąć program, który nie odpowiada należy znależć jedo numer PID, a następnie użyć komendy kill 
+5. Najlepszą komendą będzie ls -l lub -p i użycie komendy grep np: ls -p |grep 'al.*'
+6. Aby nadać uprawnienia: 
+chmod o+x,g+rx,u+rwx /home/PJWSTK/s25528/Ćwiczenie/ala
+7. Aby utworzyć plik z listą katalogów:
+l=$(ls -p) && echo "&1" > lista.txt
+8. Ktoś nam zrobił psikusa i zabrał uprawnienia ewentualnie doszło do uszkodzenia pliku lub sieci.
+9. Jedyny słuszny klawisz TAB
+10. Uruchomić program korzystając z usługi.
+
+
