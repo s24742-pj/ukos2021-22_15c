@@ -2,3 +2,24 @@
 Na dzisiejszych zajeciach nauczylem sie:
 -ustawiac maszyne wirtualna w programie virtualbox
 -nazw folderow w linuxie oraz co zawieraja
+
+23.10.2021
+Na dzisiejszych zajeciach nauczylem sie:
+-co to sa prawa dostepu oraz jak je wykorzystywac
+-jak zabezpieczac swoje pliki i katalogi w systemie linux
+-dlaczego nigdy nie powinno sie przydzielac prawa dostepu 777
+
+06.11.2021
+Na dziejszych zajeciach nauczylem sie:
+-co to sa strumienie oraz do czego sluza
+-jak wyswietlac procesy w systemie linux oraz jak je zakanczac
+-jakie sa statusy procesu w systemie linux
+-skrotow klawiszowych w terminalu np. (ctrl^c)
+-preznosic procesy aby dzialaly w tle
+-jak korzystac z polecenia grep
+
+20.11.2021r.
+Na dzisiejszych zajeciach nauczylem sie:
+-rożnicy między ścieżką relatywną a absolutną
+-jak przenosić katalogi oraz jak można wykorzystać polecenie mv do zmiany nazwy
+-że polecenie kill ma różne atrybuty i każdy z nich ma swój numer

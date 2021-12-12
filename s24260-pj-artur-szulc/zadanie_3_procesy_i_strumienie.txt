@@ -1,0 +1,18 @@
+11.11.2021
+
+Po wpisaniu komendy ls -a widze pliki których nie widze pod komenda ls. 
+Flaga -a, --all służy do pokazania plików zaczynających sie od . bez ukrywania. 
+Stworzyłem testowe drzewo katalogów, plików aby przetestowac działanie komendy ls -a | grep D. 
+Zapisałem wynik do pliku wynik_komendy_zadanie_3.txt. 
+Gdy wpisałem komende pokazało mi wszystkie pliki które zawieraja w sobie D.
+Do zapisu wyniku z katalogu pomocna mi była komenda pwd. 
+Potem użyłem komendy ps do sprawdzenia aktualnych procesów, nastepnie ps -a która pokazała mi zupełnie inne procesy,
+tak samo w przypadku ps x, a ps aux pokazało mi liste procesów każdego użytkownika. 
+Do sprawdzenia wszystkich procesów root'a użyłem komendy ps -U root -u root u. 
+Otworzyłem edytor tekstowy, gdy chciałem użyć komendy kill [proces programu nano] dostałem wiadomosc "operacja 
+niedozwolona". 
+Tak samo przy użyciu komendy killall shell. 
+Kolejnym zadaniem jakie wykonałem było wpisanie przy uzyciu cat zawartosci i dodanie jej do pliku tekstowego. 
+Przy Ctrl + C tekst się nie zapisał a przy Ctrl + D tak. Kolejnie otworzyłem nano i kliknałem Ctrl + Z, wrocilem 
+terminala, bo uzyciu bg wrociłem z powrotem od nano. 
+Gdy wpisałem gedit nic nie stało podobnie z gimp ale komenda geany zadziałała i przy użyciu jobs widze jej kod wyjścia.

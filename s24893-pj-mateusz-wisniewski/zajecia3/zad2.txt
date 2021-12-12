@@ -1,0 +1,7 @@
+używając komendy kill -9 | -sigkill | -kill (PID procesu) mozemy wyslac sygnał "zabijający" dany proces.
+
+Komenda killall wysyła sygnał do wszystkich procesów podanych w linii poleceń.
+W przypadku posiadanych przez nas uprawnien użycie komendy killall shell jest niedozwolone.
+
+komenda kill może być użyta tylko dla procesów wykonywanych przez naszego użytkownika, użycie jej
+w stosunku do innego użytkownika/roota w przypadku posiadanych przez nas uprawenien jest niedozwolone.

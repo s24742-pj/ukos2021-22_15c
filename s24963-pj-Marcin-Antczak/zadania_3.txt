@@ -1,0 +1,6 @@
+Zadania 3 
+1. Po wpisaniu komendy ls -a| grep D wyświetlił się tylko plik "readme". 
+2. Po wprowadzeniu komendy ls -a| grep D > "Nazwa Pików" utworzył się plik txt o tej samej nazwie, ale bez treści. symbol ">" znaczy to samo co input. Symbol "|" oznacza przekierowanie z jednego programu do drugiego. 
+3.Poprzez komende kill -9 i numer PID zostałem wylogowany z systemu. Numer PID znalazłem poprzez komende ps (mniej rubryk do przeczytania :D) 
+4. Po stworzniu pliku" wynik 1.txt", wpisaniu tekstu "witaj"  oraz naciśnieciu kombinacji przycisków ctrl + c jedynie "wyrzuciło" mnie z pliku bez pozostawienia zawartości w nim. 
+5. Po stworzeniu pliku "wynik2.txt", wpisaniu tekstu " witaj" oraz naciśnięciu kombinacji przycisków ctrl +d pozostawiło tekst "witaj" w pliku bez konieczność użycia komendy vim.

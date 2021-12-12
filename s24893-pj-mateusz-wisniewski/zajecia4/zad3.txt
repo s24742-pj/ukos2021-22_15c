@@ -1,0 +1,2 @@
+mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+

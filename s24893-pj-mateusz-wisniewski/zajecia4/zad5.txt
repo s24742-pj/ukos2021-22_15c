@@ -1,0 +1,3 @@
+wypisać wszystkie pliki w bieżącym katalogu których nazwa zaczyna się od al możemy za pomocą komendy ls | grep '^al*'
+
+

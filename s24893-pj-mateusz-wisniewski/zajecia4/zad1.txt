@@ -1,0 +1,2 @@
+ścieżka względna cd ../../../kot/ma/ale
+ścieżka bezwzględna cd /tmp/ukos/kot/ma/ale

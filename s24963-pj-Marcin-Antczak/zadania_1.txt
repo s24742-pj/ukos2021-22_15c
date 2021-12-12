@@ -1,0 +1,14 @@
+1.Uruchomiłem terminal poprzez Virtual Box 
+2.Zawartość aktualnego katalogu wyświetliłem poprzez komende ls -l. 
+3.Poprzez komende pwd sprawdziłem gdzie się znajduję. W interfejsie graficznym niestety nie jestem w stanie tego zobaczyć (Vitrual B) 
+4. Przeszedłem do katalogu pulpit cd ../windows/desktop. 
+5.Poprzez komende ls- l sprawdziłem aktualne położenie szuflandias24963~:/windows/desktop. 
+6.Poprzez komende ls-l sprawdziłem, że znajduję się w -rw-r--r--+ 1 s24963 pjwstk 466 lis 21 15:46 zadania_1.txt. 
+7.Zapewne tak, ale nie w Virtual Boxie :) 
+8.Katalog domowy mogłem wyświetlić tylko z tej samej ścieżki. Jak byłem w folderze ZADANIA to nie wynajdowało mi takiego katalogu. 
+9.Ze względu na to, że nie miałem katologu obrazy, przeniosłem się do katalogu pulpit poprzez comende cd ../.. ścieżką względną, utworzyłem katalog obrazy poprzez komendę mkdir. Wróciłem po tym do katalogu ZADANIA ścieżką względną i ponownie wróciłem do katalogu obrazy, aby sprawdzić czy działa. 
+10.Poprzez komendę pwd sprawdziłem, że znajduję sie w szuflandia/pjwstk/home/s24963. 
+11.Poprzez komende cd i ścieżkę ./././././././ zostałem na tej samej ścieżce. 
+12.Poprzez ścieżkę bezwzględną cd /home/PJWSTK/s24964/ przeniosłem się do swojego głównego katalogu. 
+13.Poprzez komende cd /root dostałem odpowiedź "brak dostępu". :( 
+14.Ctrl+ALt+F1 otwiera główny termianl. Kazał podać login i hasło.

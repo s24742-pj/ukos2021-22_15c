@@ -1,0 +1,32 @@
+część zadań robilem na lekcji.
+
+1.  Utworzyłem drzewo katalogów
+
+połączyłem się z kontem Mateusza s24893
+cd /home/PJWSTK/s24893
+
+utworzylem u niego plik test1.txt i zmienilem ustawienia dostepu, nie mogl on nic z nim zrobic
+
+2.
+
+po usunieciu uprawnień dostepu do katalogow przez Mateusza nie moglem nic zrobic z katalogiem.
+
+Nie moglem przejsc do podrzędnych katalogow gdy w tym nadrzędnym mialem zabrane uprawnienia dostepu.
+
+3.
+
+ > nadpisywanie treści pliku
+ >> dopisywanie/dodawanie treści pliku 
+tail -f pokazywalo od razu tresc zmienionego pliku
+
+4.
+
+Katalogowi public_html trzeba dac uprawnienia do wejscia a plikowi strona.html trzeba dac uprawnienia odczytu
+
+5.   
+
+Polecenie umask odpowiada za ograniczanie uprawnien dostępu do pliku
+
+Aby nadać wszystkie uprawnienia wszystkim uzytkownikom nalezy wpisac w bitach 777 ( niepolecane )
+
+Nowe pliki tworzone są na masce 022 i mają uprawnienia 644 – tworca pliku ma do niego prawo odczytu i zapisu a grupa i reszta ma tylko tylko prawo do odczytu. W tej masce katalogi mają uprawnienia 755

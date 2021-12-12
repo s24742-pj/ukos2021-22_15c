@@ -1,0 +1,10 @@
+1. Utworzenie we własnym katalogu struktury podkatalogów i plików tekstowych. Przydzielenie im różnych praw dostępu
+1a. Stworzenie katalogów:
+- Zastrzeżone: z uprawnieniami:
+- Poufne: z uprawnieniami:
+- Tajne: z uprawnieniami:
+- Ścisle tajne: z uprawnieniami:
+1b. Użycie Midnight Commander ułatwia przede wszystkim kopiowanie plików między katalogami, porównywanie ich, zmiany nazwy itd.
+2. Przy usunięciu praw dostępu do katalogu nadrzędnego nie możemy ścieżką względną przejśc wyżej.
+3. Za pomocą polecenia echo, możemy wyświetlić w terminalu tekst, który wpiszemy z klawiatury. Również za pomocą polecenia echo możemy przenieść tekst do pliku. Do obejrzenia zawartości pliku (zawartość wyświetlana w terminalu), bez konieczności otwierania pliku w edytorze tekstowym służy polecenie cat, wraz z różnymi parametrami ułatwia nawigację po wyświetlanych danych. Komenda tail -f pokazuje bieżące procesy, które mają miejsce w procesorze. Użycie jej razem z katologiem log, pozwala na sprawdzenie błędów i wyjątków, które mają miejsce podczas pracy danej aplikacji.
+4. Teoretycznie, aby wyświetlić stronę stworzoną przeze mnie w katalogu public_html => strona.html wystarczającymi uprawnieniami powinny być:chmod a+rwx,g-w,o-w. Jednak nie jestem w stanie zlokalizować błędu, a komunikat który mi się wyświetla brzmi: You don't have permission to access /~s25528/strona.html on this server. 

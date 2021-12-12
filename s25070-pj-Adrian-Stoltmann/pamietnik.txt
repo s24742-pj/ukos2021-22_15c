@@ -1,0 +1,1 @@
+Na dzisiejszych zajeciach nauczylem/lam sie jak wgrać pliki na repozytorium, jak połączyć się z serwerem przez terminal oraz jak włączyć wirtualną maszynę

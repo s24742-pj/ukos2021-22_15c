@@ -1,0 +1,6 @@
+mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+mkdir -p ../../../kot/ma/ale/jan/kowalski
+
+
+
+

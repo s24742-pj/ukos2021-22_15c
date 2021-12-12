@@ -7,7 +7,7 @@ w trybie graficznym i z poziomu terminala widać te same pliki
 wyświetlić zawartość katalogu domowego można za pomocą "ls /home/ubuntu"
 do katalogu obray można przejść za pomocą "cd .." a następnie "cd Pictures/"
 ścieżka to /home/ubuntu/Pictures
-za pomocą ścieżki ////// przechodzimy do katalogu "/", czyli głownego katalogu linuxa
+za pomocą ścieżki ././././././ przechodzimy do katalogu w którym obecnie się znajdujemy, jest to tak jakby wielkokrotność ścieżki ./
 przchodzę do swojego katalogu za pomocą ścieżki bezwzględnej "home/ubuntu"
 pow wpisaniu "cd /root" spotykamy się z odmową dostępu, ponieważ aby wejść w ten katalog musimy być zalogowani jako root
 gdy wciśniemy kombinację klawiszy Ctrl+Alt+F1 przechodzimy do trybu tekstowego linuxa

@@ -1,0 +1,6 @@
+
+komendą cat > wynik1.txt tworzymy plik tekstowy oraz mamy możliwość uzupełenia jego zawartości.
+skrót klawiszowy ctrl+c wyłącza aktywny program w terminalu nie zapisując jego aktualnej zawartości.
+
+komendą cat > wynik2.txt tworzymy plik tekstowy oraz mamy możliwość uzupełenia jego zawartości.
+komenda ctrl+d zakańcza strumień wejściowy naszego procesu zapisując podane do niego wcześniej przez nas dane wejściowe.

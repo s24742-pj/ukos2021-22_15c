@@ -1,0 +1,41 @@
+-Polecenie ls -a wypisało podkatalogi katalogu domowego wraz z ukrytymi plikami
+
+natomiast polecienie ls -a | grep D wypisało katalogi zawierające dużą literę D.
+
+- polecenie ls -a | grep D > plik.txt stworzył plik zawierający nazwy plików z literą D w nazwie wraz z plikiem tekstowym którego nazwa według zadania zawiera literę D
+
+znak | jest potokiem co oznacza ze przesyła dane z jednego polecenia do drugiego a znak > jest przekierowaniem strumienia
+
+
+1.
+-ps:  lista procesów do których użytkownik ma dostęp
+-ps -a:  wyświetla wszystkie procesy wraz z tymi nie podłączonymi do terminali
+-ps x: wyświetla listę wszystkich procesów których właścicielem jest użytkownik
+-ps aux: wyświetla wszystkie procesy niezaleznie od tego gdzie zostały wykonane
+
+Znak zapytania w kolumnie o nazwie TTY oznacza że program nie funkcjonuje w żadnym terminalu
+
+Polecenie ps aux | grep bash
+
+Polecenie ps aux | grep -e ^root wyświetli procesy użytkownika root
+
+2.
+
+-Uruchomiłem program gedit
+-PID programu to 3006
+- po wpisaniu kill PID program został zamknięty
+-wpisanie komendy killall shell wyświetla komunikat o nie znalezieniu procesu
+-tak kill zadziała dla dowolnego procesu
+
+3.
+
+Po wykonaniu cat > wynik1.txt i zastosowaniu sktóru Ctrl + C plik zostanie zapisany ale bez treści
+natomiast zastosowanie skrótu Ctrl + D zapisze plik i wpisana przez nas treść znajdzie się w pliku
+
+4.
+
+-Uruchomiłem program gedit
+-Po zastosowaniu skrótu Ctrl + Z program zostaje zatrzymany, okno edytora dalej jest widoczne jednak nie mozna w nie wejść i w nim poracować
+-Komenda bg wznowiła prace programu w tle co pozwala kontynuowac pracę jednak program nie jest uruchomiony w terminalu
+-komenda fg przenosi program na pierwszy plan terminala
+-uzycie skrótu Ctrl + C zamyka program

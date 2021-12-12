@@ -1,0 +1,2 @@
+Skrót klawiszowy ctrl + C zamknał strumień wejściowy i nie zapisał tesktu "witaj" do pliku.
+Natomiast skrót klawiszowy ctrl + D również zamknął strumień wejściowy ale zapisał tekst "witaj" do pliku.

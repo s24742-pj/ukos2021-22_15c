@@ -1,14 +1,14 @@
 1. Uruchomiłem terminal
 2. Wyswietlilem zawartość aktualnego katalogi za pomocą komendy ls
 3. Sprawdzam aktualne polozenia za pomoca komendy pwd
-4. przechodze do pulpitu za pomoca komendy cd ../windows/desktop
+4. przechodze do pulpitu za pomoca komendy cd ../ubuntu/Desktop
 5. sprawdzam gdzie jestem za pomocą komendy pwd
 6. sprawdzam zawartosc aktualnego katalogu za pomocą komendy ls
-7. nie jestem w stanie odpowiedziec
+7. Wygląda na to, że tak
 8. sprawdzam zawartość katalogu domowego za pomocą komendy ls ~
-9. przechodzę do katalogu Obrazy za pomocą komendy ../Obrazy
-10. sprawdzam moje położenie za pomocą komendy pwd
-11. używając ścieżki ././././././ znalazłem się w katalogu w którym byłem ../Obrazy
-12. przeszedłem do katalogu domowego za pomocą komendy cd /home/PJWSTK/s24282
-13. brak dostepu
-14. nie wiem co sie stalo
+9. przechodzę do katalogu Obrazy za pomocą komendy ../Pictures
+10. Jestem w katalogu /home/ubuntu/Pictures za pomocą komendy pwd
+11. używając ścieżki ././././././ znalazłem się w katalogu w którym byłem ../Pictures
+12. przeszedłem do katalogu domowego za pomocą komendy cd /home/ubuntu
+13. bash: cd: /root: Permission denied. Zostalem odrzucony, nie mam uprawnienia.
+14. Uruchomilo terminal w trybie pelnoekranowy, reszta graficzny zostalo ukryte.

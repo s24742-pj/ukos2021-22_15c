@@ -1,0 +1,3 @@
+W tym zadaniu nauczyłem się korzystać z komendy umask oraz przypisywać uprawnienia do poszczególnych plików i katalogów,
+Z początku miałem problem. Po nowym maskowaniu utworzony plik bądź katalog nie miał żadnych uprawnień czego nie pamiętałem. Próbowałem stworzone katalogi oraz pliki usunąć, ale bezskutecznie. Dopiero po przypisaniu uprawnień poprzez komende chmod g+x byłem wstanie jakkolwiek wpłynąć i edytować katalog bądź plik. Funkcja ta przyznaje uprawnienia poprzez AND (logiczną koniunkcję).
+

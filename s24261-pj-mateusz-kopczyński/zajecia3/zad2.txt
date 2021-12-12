@@ -1,0 +1,6 @@
+- Uruchomiłem terminalowy edytor tekstu (nano)
+- Sprawdziłem jego PID przy pomocy komendy: ps
+- Użycie komendy: kill 21348 nie spowodowało zamknięcia tego procesu więc postanowiłem użyć komendy kill -9 21348 która to unicestwiła proces (wymusiła zakończenie procesu).
+
+- Komenda: killall kończy procesy o danej nazwie (w tym przypadku shell). Jednak podczas użycia tej komendy wyskoczył mi komunikat, że ta operacja jest niedozwolona.
+- Komenda: kill działa tylko dla naszych procesów, nie możemy zakończyć procesów, które przypisane są do root'a. Jednakże root może zakończyć wszystkie procesy (nawet nasze).

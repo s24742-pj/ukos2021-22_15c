@@ -1,0 +1,51 @@
+1.
+względna:
+../../../kot/ma/ale
+
+bezwzględna:
+/tmp/ukos/kot/ma/ale
+
+2.
+mkdir -p  /tmp/ukos/kot/ma/ale/jak/kowalski
+
+3.
+
+mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i/
+
+4.
+
+komendą ps aux sprawdzić pid programu a następnie komendą kill -9 PID zamknąć program
+
+5.
+
+ls | grep ^al
+
+6.
+
+chmod 741 ala
+
+chmod u=rwx ala
+cmod g=r ala
+chmod o=x ala
+
+7.
+
+ls > lista.txt
+
+8.
+
+-pracując na uprawnieniach do naszego katalogu zabraliśmy dostęp do katalogu
+-w tej samej sytuacji można było zabrać uprawnienie do zapisu
+
+9.
+
+klawisz TAB
+
+10.
+
+-uruchamiamy program po czym wstrzymujemy go skrótem Ctrl + Z a nastepnie komendą bg wznawiamy w tle
+-uruchamiamy program wpisując w terminalu nazwę i znak & po spacji
+
+
+
+

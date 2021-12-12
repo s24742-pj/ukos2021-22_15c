@@ -1,0 +1,20 @@
+1.Aby uruchomić terminal należy:
+- użyć skrótu CTR+ALT+F1 (otworzy się terminal domyślny)
+- wybrać z listy narzędzie, które nas interesuje (w moim przypadku jest to XLTerminal)
+2. Aby wyświetlić zawartość katalogu należy użyć następujących komend:
+   ls -l : szczegółowa lista 
+   ls -a : wyświetla również katalogi ukryte  
+   ls -R : listuje katalogi rekursywnie
+3. Aby sprawdzić aktualną ścieżkę należy użyć komendy: pdw
+4. Aby przejśc do katalogu Pulpit za pomocą ścieżki względnej należy sprawdzić, gdzie najdujemy się w danym momencie i podać ścieżkę względem tego położenia np. cd ../../s25528/WINDOWS/Desktop
+5. Aby sprawdzić położenie używamy komendy: pwd
+6. Aby wyświetlić zawartość bieżącego katalogu używamy jedną z komend z punktu 2 np. ls -l
+7. Przechodzą w sposób graficzny do tego samego katalogu pulpit otrzymamy ten sam wynik.
+8. Aby wyświetlić zawartośc katalogu domowego bez przechodzenia do niego należy użyć komendy: 
+  ls -l /home
+9. Patrz punkt 4
+10. Patrz punkt 3
+11. Za pomocą ścieżki ././././././ przejdę do nikąd. 
+12. Ścieżka bezwględna zaczyna się od katalogu głównego od "znaku tyldy" np. cd /UKOS/ZADANIA/
+13. Po użyciu komendy cd /root wyświetla się komunikat o braku dostępu. Jest to katalog dostępny jedynie dla administratora systemu.
+14. Po wciśnięciu klawisza CTR+ALT+F1 nastąpi zamknięcie terminala.

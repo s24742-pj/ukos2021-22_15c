@@ -1,0 +1,21 @@
+Zadanie 1: Stworzyłem drzewo katalogów jak w zadaniu, wszedłęm do katalogu kota, względnie do ala przeniosłem się za pomocą cd ../../ a bezwzględnie cd ~/ukos2021-22_15c/s24260-pj-artur-szulc/zadanie_4/ala/
+
+Zadanie 2: utworzyłem drzewo katalogow jan/kowalski przy pomocy bezwględna ścieżka mkdir -p ~/ukos2021-22_15c/s24260-pj-artur-szulc/zadanie_4/kot/ma/ale/jan/kowalski oraz względna ścieżka mkdir -p ../../../kot/ma/ale/jan/kowalski/ 
+
+Zadanie 3: zrobiłem przy pomocy komend: mv ~/ukos2021-22_15c/s24260-pj-artur-szulc/zadanie_4/kot/ma/ale/ ~/ukos2021-22_15c//s24260-pj-artur-szulc/zadanie_4/ala/i/ oraz mv ../../../kot/ma/ale/../../i/ .
+
+Zadanie 4: kill -9 PID
+
+zadanie 5: ls -p | grep '^al'
+
+Zadanie 6: chmod u=rwx,g=rx,o=x ala , użyłem = ponieważ użytkownik może mieć już ustawione uprawnienia. oraz chmod 751 ala
+
+Zadanie 7:  ls > wynik_zadanie_7.txt
+
+zadanie 8: Zostały zmienione uprawnienia do zapisu pliku. Zostały zmienione uprawnienia wyświetlenia zawartości pliku. 
+
+zadanie 9: TAB 
+
+Zadanie 10: 
+ - program &;
+ - Odpalam program. potem Ctrl+Z. wpisuje jobs a aby zobaczyć zatrzymane programy. bg z numerem w jobs. 

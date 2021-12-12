@@ -4,4 +4,9 @@ Korzystania z narzędzie GIT
 tworzenia maszyn wirtualnych w programie VirtualBox
 nauczyłem się korzystać z terminali Cmder 
 nauczyłem się podstawowych komend w terminalu Linux
-
+nadawania oraz zabierania praw dostepu w terminalu linux
+skrótów klawiszowych w terminalu linux
+uruchamiania plików w tle oraz "przywracania" ich
+dzialania komendy umask
+czym jest sciezka wzgledna oraz bezwzgledna na systemie linux oraz windows
+przenoszenia pliku do innego katalogu

@@ -1,0 +1,3 @@
+Domek.txt
+Drapak
+Drzewo.txt
